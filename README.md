@@ -1,24 +1,31 @@
-# Final Project - Reinforcement Learning & Game Example
+# Python & JavaScript Exercises
 
-This repository contains notebooks and resources for a final project assignment involving reinforcement learning and a simple game example.  
+This repository contains various small projects and exercises implemented in Python and JavaScript, focused on basic algorithms and web testing.  
 
 ## Contents
 
-- **Final_Project_Assignment.ipynb** – Main project notebook with iterative plots and analysis  
-- **TicTacToe-example.ipynb** – Example implementation of Tic-Tac-Toe with reinforcement learning concepts  
-- **perfectPolicy.p** – Saved policy file generated during training  
-- **.gitattributes / .ipynb_checkpoints** – Project configuration and notebook checkpoints  
+### Python Projects
 
-## Features
+- **LeapYear** – Python script to check for leap years (`leapyear.py`)  
+- **Roman** – Python script to convert numbers to Roman numerals (`roman.py`)  
+- Unit tests included: `test_leapyear.py` and `test_roman.py`  
+- Coverage reports included (`.coverage`)  
 
-- Step-by-step reinforcement learning experiments  
-- Visualization of training progress across iterations  
-- Example application to a simple game environment  
+### JavaScript / Web Projects
+
+- **Prime Number Checker** – HTML + JS implementation (`prime-assert.html`, `prime-calc.js`)  
+- CSS assertions for GUI testing (`assert.css`)  
+
+### Additional Files
+
+- `.gitattributes` – Git configuration  
+- `__pycache__` – Python cache files  
 
 ---
 
 ### Tools & Environment
 
-- **Python 3.x**  
-- **Jupyter Notebook**  
-- Libraries for plotting and reinforcement learning (NumPy, Matplotlib, etc.)  
+- **Python 3.x** for scripts and unit tests  
+- **unittest** for Python testing  
+- **JavaScript + HTML + CSS** for web GUI testing  
+- Coverage reports to validate code correctness  
